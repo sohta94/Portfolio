@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <title>magolors Portfolio - PROFILE</title>
+        <meta name="description" content="PROFILE">
+        <link rel="icon" type="image/png" href="images/favicon.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Script-Type" content="text/javascript">
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <!-- CSS -->
+        <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <div id="profile" class="big-bg">
+            <header class="page-header wrapper">
+                <h1><a href="index.html"></a></h1>
+                <nav>
+                    <ul class="main-nav">
+                        <li><a href='javascript:$(function() {$.when($(".page-title").fadeOut(300),$("article").fadeOut(300),$("aside").fadeOut(300)).done(function() {location.href= "index.html";});});'>Top</a></li>
+                        <li><a href='javascript:$(function() {$.when($(".page-title").fadeOut(300),$("article").fadeOut(300),$("aside").fadeOut(300)).done(function() {location.href= "profile.html";});});'>Profile</a></li>
+                        <li><a href='javascript:$(function() {$.when($(".page-title").fadeOut(300),$("article").fadeOut(300),$("aside").fadeOut(300)).done(function() {location.href= "products.html";});});'>Products</a></li>
+                        <li><a href='javascript:$(function() {$.when($(".page-title").fadeOut(300),$("article").fadeOut(300),$("aside").fadeOut(300)).done(function() {location.href= "skills.html";});});'>Skills</a></li>
+                        <li><a href='javascript:$(function() {$.when($(".page-title").fadeOut(300),$("article").fadeOut(300),$("aside").fadeOut(300)).done(function() {location.href= "contact.html";});});'>Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <div class="wrapper">
+                <br>
+                <h2 class="page-title">Profile</h2>
+                <br>
+            </div><!-- /.wrapper -->
+
+            <div class="profile-contents wrapper">
+                <article>
+                    <p class="profile-text">I am a student of Tokyo Institute of Technology, dept. of Information and Communications Engineering. I am studying a wide range engineering, from computer science-leaning information engineering to electrical and electronic engineering-leaning communication engineering.</p>
+                    <p>I have experience in competition programming, game development and website development. I'm interested in technologies like machine learning, blockchain and quantum computers.</p>
+                    <p>I like competition programming, algorithms and data structures and I participate in weekly contests. I have a rating in the top 15% of all users on AtCoder and CODEFORCES.</p>
+                    <p>I am studying machine learning. Especially, I am currently creating artificial intelligence for two-players, zero-sum, logical perfection information game such as shogi.</p>
+                </article>
+    
+                <aside>
+                    <h3 class="sub-title">My Accounts</h3>
+                    <p></p>
+                    <ul class="sub-products">
+                        <li><a href="https://github.com/magolors"  target="_blank" rel="noopener noreferrer">GitHub : magolors</a></li>
+                        <li><a href="https://qiita.com/magolors"  target="_blank" rel="noopener noreferrer">Qiita : magolors</a></li>
+                        <li><a href="https://magolors.hatenablog.com/"  target="_blank" rel="noopener noreferrer">HatenaBlog : magolors</a></li>
+                        <li><a href="https://atcoder.jp/users/magolors"  target="_blank" rel="noopener noreferrer">AtCoder : magolors</a></li>
+                        <li><a href="https://codeforces.com/profile/magolors"  target="_blank" rel="noopener noreferrer">CODEFORCES : magolors</a></li>
+                        <li><a href="https://mathlog.info/users/1297/articles"  target="_blank" rel="noopener noreferrer">Mathlog : magolors</a></li>
+                        <li><a href="https://www.kaggle.com/magolors"  target="_blank" rel="noopener noreferrer">Kaggle : magolors</a></li>
+                    </ul>
+                </aside>
+            </div><!-- /.profile-contents -->
+        </div><!-- /#profile -->
+
+        <footer>
+            <div class="wrapper">
+                <p><small>&copy; 2020 magolors</small></p>
+            </div>
+        </footer>
+
+        <script src="js/profile.js"></script>
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-175795075-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-175795075-1');
+        </script>
+    </body>
+</html>
